@@ -32,7 +32,7 @@ your assignments and submit them using CodeGrade.
 
 ## Completing and Submitting Assignments
 
-<iframe width="640" height="480" src="https://www.youtube.com/embed/EqIGup3zb8A" title="Completing and Submitting Software Engineering Assignments" frameborder="0" allowfullscreen></iframe>
+</iframe>
 
 ### A Quick Note on Organizing Work on Your Machine
 
@@ -109,7 +109,7 @@ then paste in the copied SSH link from GitHub. It should look something like
 this:
 
 ```console
-$ git clone git@github.com:your-github-username/phase-0-completing-assignments-codegrade.git
+git clone git@github.com:your-github-username/phase-0-completing-assignments-codegrade.git
 ```
 
 Press enter, and you should see a flurry of terminal activity.
@@ -119,7 +119,7 @@ name of the assignment will have been created. Change directory into this folder
 to access the assignment files.
 
 ```console
-$ cd phase-0-completing-assignments-codegrade
+ cd phase-0-completing-assignments-codegrade
 ```
 
 Now type `code .` (assuming you're using Visual Studio Code as your text editor)
@@ -204,13 +204,13 @@ $ pwd
 If you're not already in the root, `cd` into it.
 
 ```console
-$ cd phase-0-completing-assignments-codegrade
+ cd phase-0-completing-assignments-codegrade
 ```
 
 Then use the `touch` command to create `myfile.md`.
 
 ```console
-$ touch myfile.md
+ touch myfile.md
 ```
 
 To make sure it was created successfully in the correct area, use the `ls`
@@ -456,7 +456,7 @@ You need to install the Xcode Command Line Tools. Run the following command to
 install them:
 
 ```console
-$ xcode-select --install
+ xcode-select --install
 ```
 
 And follow the prompts. Then try running the `git clone` command again. See
